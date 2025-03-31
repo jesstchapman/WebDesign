@@ -1,32 +1,28 @@
-body {
-    background-color: rgb(113, 167, 167);
+.logo {
+    width: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-h1 {
+.main-header {
+    display: flex;
+    background-color: rgb(158, 106, 38);
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-flow: row wrap;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.main-navigation {
+    display: flex;
+    flex-flow: row wrap;
+}
+.main-navigation a{
     color: white;
-}
-img {
-    border-style: solid;
-    border-width: 10px;
-    border-color: black;
-}
-img:hover {
-    border-style: dashed;
-}
-a { 
-    color: white;
-    font-size: large;
     text-decoration: none;
+    font-size: 1.2em;
+    padding: 0.7em;
 }
-#main-nav {
-    background-color: black;
-    text-align: center;
-    padding: 10px;
-}
-#main-nav a {
-    font-size: 24px;
-    margin: 20px;
-}
-#main-nav a:hover {
-    text-decoration: underline;
-    color: blue;
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
