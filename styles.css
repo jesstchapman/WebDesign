@@ -44,7 +44,7 @@ body {
 .dropdown a {
     display: block;
 }
-.dropdown a::after {
+.dropdown > a::after {
     content: "\25bc";
     font-size: 0.5em;
 }
