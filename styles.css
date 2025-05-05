@@ -17,7 +17,7 @@
     flex-flow: row wrap;
 }
 .main-navigation a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 1.2em;
     padding: 0.7em;
@@ -32,7 +32,7 @@ body {
     flex-flow: row wrap;
 }
 .user-nav a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 1.2em;
     padding: 0.7em;
@@ -64,4 +64,28 @@ body {
 }
 .dropdown-menu a {
     white-space: nowrap;
+}
+
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+.site-search {
+    display: flex;
+    flex-flow: nowrap;
+    padding: 0.7em;
+    min-width: 30vw;
+}
+.site-search input {
+    flex: 1;
+    padding: 0.5em;
+    border: 1px solid transparent;
+}
+.site-search button {
+    padding: 0.5em;
+    border: 1px solid transparent;
 }

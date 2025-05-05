@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <!-- body is for content -->
 <body>
@@ -36,12 +37,24 @@
     </nav>
     <form class="site-search">
         <input type="search" name="keyword" id="keyword" placeholder="Search">
-        <button type="submit">Search</button>
+        <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span class="sr-only">Search</span>
+        </button>
     </form>
     <nav class="user-nav">
-        <a href="account.html">Account</a>
-        <a href="wishlist.html">Wishlist</a>
-        <a href="cart.html">Cart</a>
+        <a href="account.html"> 
+            <i class="fa-solid fa-user"></i>
+            <span class="sr-only">Account</span>
+        </a>
+        <a href="wishlist.html">
+            <i class="fa-solid fa-heart"></i>
+            <span class="sr-only">Wishlist</span>
+        </a>
+        <a href="cart.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="sr-only">Cart</span>
+        </a>
     </nav>
    </header>
    <main></main>
