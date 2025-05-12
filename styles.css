@@ -3,6 +3,13 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.nav-button {
+    background-color: transparent;
+    color: black;
+    font-size: 1.8em;
+    border-color: transparent;
+    display: none;
+}
 .main-header {
     display: flex;
     background-color: rgb(158, 106, 38);
