@@ -118,6 +118,24 @@ body {
 .card-image {
     max-width: 100%;
 }
+.card-content {
+    padding: 1em;
+}
+.card {
+    background-color: rgb(158, 106, 38);
+}
+.card-button {
+    display: block;
+    background-color: bisque;
+    color: black;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
 .col-4 {
     grid-column: span 4;
+}
+.col-3 {
+    grid-column: span 3;
 }
