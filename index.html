@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 <!-- body is for content -->
 <body>
@@ -63,7 +65,49 @@
         </a>
     </nav>
    </header>
-   <main></main>
+   <!-- slideshow -->
+    <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true, "autoPlay": true }'>
+        <div class="slide">
+            <img src="images/slides/shoe1.jpg" alt="shoes">
+        </div>
+        <div class="slide">
+            <img src="images/slides/shoe2.jpg" alt="shoes">
+        </div>
+        <div class="slide">
+            <img src="images/slides/shoe3.jpg" alt="shoes">
+        </div>
+        <div class="slide">
+            <img src="images/slides/shoe4.jpg" alt="shoes">
+        </div>
+        <div class="slide">
+            <img src="images/slides/shoe5.jpg" alt="shoes">
+        </div>
+    </div>
+   <main>
+    <div class="featured-grid">
+        <div class="card col-4">
+            <img class="card-image" src="images/products/pexels1.jpg" alt="ankle boots">
+            <div class="card-content">
+                <h3 class="card-title">Casual</h3>
+                <a href="#" class="card-button">Shop Casual</a>
+            </div>
+        </div>
+        <div class="card col-4">
+            <img class="card-image" src="images/products/pexels2.jpg" alt="ankle boots">
+            <div class="card-content">
+                <h3 class="card-title">Boots</h3>
+                <a href="#" class="card-button">Shop Heeled Boots</a>
+            </div>
+        </div>
+        <div class="card col-4">
+            <img class="card-image" src="images/products/pexels3.jpg" alt="ankle boots">
+            <div class="card-content">
+                <h3 class="card-title">Casual</h3>
+                <a href="#" class="card-button">Shop Casual</a>
+            </div>
+        </div>
+    </div>
+   </main>
    <footer></footer>
 </body>
 

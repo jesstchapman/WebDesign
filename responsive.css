@@ -42,4 +42,7 @@
     .user-nav {
         order: 3;
     }
+    .slide img {
+        aspect-ratio: 1/1;
+    }
 }
