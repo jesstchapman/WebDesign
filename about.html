@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head is for metadata -->
+<head>
+    <title>TipToe Soles About Us</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</head>
+<!-- body is for content -->
+<body>
+   <header class="main-header">
+    <button class="nav-button">
+        <span class="sr-only">Menu</span>
+        <i class="fa-solid fa-bars"></i>
+    </button>
+    <a href="index.html"><img src="images/logo.png" class="logo" alt="tiptoe soles logo">
+    </a>
+    <nav class="main-navigation">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+        <a href="products.html">
+            Products
+        </a>
+        <nav class="dropdown-menu">
+            <a href="women.html">Women</a>
+            <a href="men.html">Men</a>
+            <a href="kids.html">Kids</a>
+        </nav>
+        </div>
+        <div class="dropdown">
+        <a href="services.html">
+            Services
+        </a>
+        <nav class="dropdown-menu">
+            <a href="store.html">Find a Store</a>
+            <a href="size.html">Size Guide</a>
+            <a href="gift.html">Gift Cards</a>
+        </nav>
+        </div>
+    </nav>
+    <form class="site-search">
+        <input type="search" name="keyword" id="keyword" placeholder="Search">
+        <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span class="sr-only">Search</span>
+        </button>
+    </form>
+    <nav class="user-nav">
+        <a href="account.html"> 
+            <i class="fa-solid fa-user"></i>
+            <span class="sr-only">Account</span>
+        </a>
+        <a href="wishlist.html">
+            <i class="fa-solid fa-heart"></i>
+            <span class="sr-only">Wishlist</span>
+        </a>
+        <a href="cart.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="sr-only">Cart</span>
+        </a>
+    </nav>
+   </header>
+ 
+   <main>
+    <div class="featured-grid">
+        <div class="card col-4">
+            <img class="card-image" src="images/about/staff.jpg" alt="image of a worker with shoes">
+            <div class="card-content">
+                <h3 class="card-title">Who We Are</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi facilisis tincidunt massa, non malesuada elit laoreet ac. Vestibulum tempor dignissim sapien, ac blandit felis congue ut. Sed augue erat, cursus eu fermentum in, tristique eget arcu. Curabitur suscipit urna in mi pretium pellentesque. Aenean et quam ultrices massa pharetra tincidunt efficitur eu tortor. Aliquam eros neque, mattis vel fermentum in, fermentum a libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec consequat ornare sapien, nec pulvinar urna congue et. Suspendisse potenti.      
+                </p>
+                <p>Pellentesque eget iaculis turpis, porta maximus sem. Vivamus cursus gravida ipsum, et varius tortor sagittis a. Nam et diam tempus, dignissim nibh nec, rhoncus diam. Phasellus id quam a mi sagittis iaculis ut eget elit. Vestibulum mattis tortor quam, a venenatis erat efficitur eget. Aliquam nec ullamcorper purus. Maecenas nec neque vitae libero ultrices dictum non id ante. Nunc laoreet, felis ut cursus mollis, orci dui sagittis est, vel lacinia ipsum risus in enim. Cras elementum fermentum velit et pharetra.
+</p>
+            </div>
+        </div>
+        <div class="card col-4">
+            <img class="card-image" src="images/about/blueprint.jpg" alt="blueprint representing company history">
+            <div class="card-content">
+                <h3 class="card-title">Our History</h3>
+                <p>Proin fermentum lacus nec aliquam aliquet. Nam viverra, arcu eu pellentesque sollicitudin, est orci feugiat nibh, ut tempus erat lectus vel ex. Donec non vehicula eros, ac commodo magna. Sed faucibus ac massa nec aliquet. Morbi id erat lorem. Ut eget ligula sodales, volutpat sem ut, aliquam est. Nam sed ex mauris. Phasellus mollis risus vel arcu euismod rutrum. Praesent sit amet risus ac nunc tristique malesuada. Praesent ut dui sit amet velit vulputate tincidunt.
+                </p>
+                <p>Phasellus consectetur eros eu vestibulum pretium. Sed non magna nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc efficitur magna vel tincidunt venenatis. Morbi pharetra sit amet nunc lobortis consectetur. Vestibulum pharetra eget dolor vel feugiat. In dignissim fringilla urna a mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi eleifend erat a elit consectetur, molestie volutpat dolor varius. Curabitur quam mauris, dapibus id lectus in, fringilla ullamcorper orci. Nulla mattis justo in rutrum convallis. In eleifend sapien quis condimentum posuere. Duis accumsan est massa, id efficitur quam vulputate quis. Phasellus vitae est cursus mi ultricies viverra.
+                </p>
+            </div>
+        </div>
+        <div class="card col-4">
+            <img class="card-image" src="images/about/shoemaker.jpg" alt="shoemaker">
+            <div class="card-content">
+                <h3 class="card-title">Our Mission</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet quis quam eu semper. Ut mollis varius est eu rhoncus. In vel tortor dignissim tortor malesuada eleifend. Sed bibendum blandit mattis. Nulla aliquet auctor risus, quis ultrices urna scelerisque vitae. Pellentesque eleifend semper ipsum, viverra facilisis augue viverra vitae. Vivamus a eros a odio feugiat lobortis vel quis eros. Mauris quam mi, commodo posuere ipsum ac, luctus pretium risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In venenatis sed dui ut euismod. Vestibulum eget urna sem. Praesent vitae velit tortor.
+                </p>
+                <p>Phasellus consectetur tellus in consectetur tincidunt. Integer ut magna ex. Donec vulputate nunc a tempus cursus. Sed non purus eu lacus luctus semper. Proin posuere ante id risus iaculis, in porttitor lectus fringilla. Proin consectetur laoreet hendrerit. Sed nec facilisis diam. Mauris varius, lectus non convallis tempus, felis elit placerat lectus, in suscipit tortor sapien sit amet tellus. Maecenas vel lobortis erat, sit amet imperdiet est.
+                </p>
+            </div>
+        </div>
+        
+    </div>
+   </main>
+   <footer class="main-footer">
+    <div class="footer-container">
+        <nav class="social-nav">
+            <a href="https://facebook.com">
+                <span class="sr-only">Facebook</span>
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+<a href="https://instagram.com">
+                <span class="sr-only">Instagram</span>
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="https://youtube.com">
+                <span class="sr-only">Youtube</span>
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://tiktok.com">
+                <span class="sr-only">Tiktok</span>
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+        </nav>
+        <nav class="footer-nav">
+            <h4>Policies</h4>
+            <a href="#">Delivery</a>
+            <a href="#">Exchanges</a>
+            <a href="#">Returns</a>
+        </nav>
+        <nav class="footer-nav">
+            <h4>Site Navigation</h4>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+   </footer>
+</body>
+
+</html>
