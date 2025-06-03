@@ -178,6 +178,21 @@ body {
     padding: 0.7em;
     font-size: 1.2em;
 }
+.footer-nav a:link {
+    color: grey;
+}
+.footer-nav a:visited {
+    color: rgb(99, 85, 67);
+}
+.footer-nav a:hover {
+    color: white;
+}
+.footer-nav a:active {
+    color: black;
+}
+.footer-nav a.active {
+    font-weight: bold;
+}
 .footer-nav h4 {
     padding: 0.7em;
     margin: 0px;
