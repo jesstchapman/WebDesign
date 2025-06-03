@@ -138,7 +138,7 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
-    width: 100%;
+    max-width: 100%;
 }
 .col-4 {
     grid-column: span 4;
@@ -201,4 +201,7 @@ body {
 }
 #map {
     width: 100%
+}
+#contact-form .card-button {
+    width: 100%;
 }
